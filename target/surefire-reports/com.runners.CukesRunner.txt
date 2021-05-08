@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.runners.CukesRunner
+initializationError(com.runners.CukesRunner)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalArgumentException: 
+Couldn't create a file output stream for target\default-html-reports.
+Make sure the the file isn't a directory.
+The details are in the stack trace below:
+Caused by: java.io.FileNotFoundException: target\default-html-reports (Access is denied)
+
